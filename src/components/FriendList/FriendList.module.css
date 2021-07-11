@@ -40,3 +40,7 @@
   font-size: 30px;
   font-weight: 600;
 }
+ul {
+  width: 400px;
+  margin: 60px auto;
+}
