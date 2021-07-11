@@ -7,12 +7,12 @@ import default_avatar from "../default_avatar.jpg";
 const Profile = ({ users }) => {
   const { avatar, name, tag, location, stats } = users;
   return (
-    <div class={s.profile}>
-      <div class={s.description}>
-        <img src={avatar} alt="Аватар пользователя" class={s.avatar} />
-        <p class={s.name}>{name}</p>
-        <p class={s.tag}>@{tag}</p>
-        <p class={s.location}>{location}</p>
+    <div className={s.profile}>
+      <div className={s.description}>
+        <img src={avatar} alt="Аватар пользователя" className={s.avatar} />
+        <p className={s.name}>{name}</p>
+        <p className={s.tag}>@{tag}</p>
+        <p className={s.location}>{location}</p>
       </div>
 
       <StatInfo {...stats} />
