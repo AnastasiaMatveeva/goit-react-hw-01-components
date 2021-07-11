@@ -1,0 +1,71 @@
+.title {
+  line-height: 70px;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 55px auto 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 270px;
+}
+
+.statistics {
+  width: 375px;
+  height: auto;
+  margin: auto auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 2px 2px 0px rgb(0, 0, 0);
+}
+
+.statList {
+  width: 270px;
+  padding-top: 55px;
+  box-shadow: 0px 2px 2px 0px rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+  margin: 0px auto 50px;
+  padding: 0;
+}
+
+.item {
+  width: 55px;
+  margin: 0;
+  padding: 0;
+}
+.item:first-of-type {
+  background-color: #4ec5f6;
+}
+.item:nth-of-type(2) {
+  background-color: #a43cf3;
+}
+.item:nth-of-type(3) {
+  background-color: #e64c66;
+}
+.item:nth-of-type(4) {
+  background-color: #20b8c5;
+}
+.item:nth-of-type(5) {
+  background-color: green;
+}
+.label {
+  font-weight: 300;
+  font-size: 12px;
+  display: block;
+  line-height: 30px;
+}
+
+.percentage {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
